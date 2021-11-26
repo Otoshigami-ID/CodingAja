@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+    <title>CodingAja</title>
 
     <link rel="icon" href="img/CODINGAJA DAN MASVATIF_page-0001.jpg" type="image/x-icon" />
 
@@ -21,6 +21,17 @@
 
     <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style type="text/css">
+        .footer {
+            padding: 30px 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #2b50c7;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,16 +50,13 @@
 
                 <ul class="nav_menu_list">
                     <li class="nav_menu_item">
-                        <a href="#" class="nav_menu_link">account</a>
+                        <a href="#idea" class="nav_menu_link">Idea</a>
                     </li>
                     <li class="nav_menu_item">
-                        <a href="#" class="nav_menu_link">about</a>
+                        <a href="#service" class="nav_menu_link">Service</a>
                     </li>
                     <li class="nav_menu_item">
-                        <a href="#" class="nav_menu_link">service</a>
-                    </li>
-                    <li class="nav_menu_item">
-                        <a href="#" class="nav_menu_link">contact</a>
+                        <a href="#step" class="nav_menu_link">Step</a>
                     </li>
                 </ul>
             </div>
@@ -87,11 +95,12 @@
 
     <div class="section">
 
-        <div class="container">
+        <div class="container" id="idea">
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <!-- <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div> -->
-                    <h2>Dari Mana Ide CodingAja Berasal ?</h2>
+                    <h2 style="line-height:4em;">Dari Mana Ide CodingAja Berasal ?</h2>
+
 
                     <p class="mb-4">
 
@@ -118,7 +127,7 @@
                     <!-- <a href="#" class="btn btn-primary">Read more</a> -->
                 </div>
                 <div class="col-12 col-sm-6">
-                    <img src="img/Screenshot__2276_-removebg.png" alt="perspective phone" class="img-fluid">
+                    <img src="img/Screenshot__2282_-removebg-preview.png" alt="perspective phone" class="img-fluid">
                     <!-- <div class="perspective-phone">
                   </div> -->
 
@@ -129,8 +138,12 @@
     </div>
     <!-- // end .section -->
 
-    <section class="wrapper">
+    <section class="wrapper" id="service">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-title">
+                <small>THE</small>
+                <h3>Service</h3>
+            </div>
             <div class="grid-cols-3">
                 <div class="grid-col-item">
                     <div class="icon">
@@ -181,9 +194,9 @@
               </svg>
                     </div>
                     <div class="featured_info">
-                        <span>Documentation for everything</span>
+                        <span>Easy To Understand</span>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nostrum voluptate totam ipsa corrupti vero!
+                            Course yang kami sediakan sudah menggunakan Bahasa Indonesia, dengan seperti ini dapat mudah di pahami oleh Siswa.
                         </p>
                     </div>
                 </div>
@@ -191,7 +204,11 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="container" id="step">
+        <div class="section-title">
+            <small>EASY</small>
+            <h3>Step</h3>
+        </div>
         <div class="row">
             <div class="col-md-8 d-flex align-items-center">
                 <ul class="list-unstyled ui-steps">
@@ -224,25 +241,21 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <img src="img/Screenshot__2276_-removebg.png" class="img-fluid">
+                <img src="img/Screenshot__2283_-removebg-preview.png" class="img-fluid">
             </div>
         </div>
     </div>
 
 
     <!-- // end .section -->
-    <footer class="my-5 text-center">
-        <!-- Copyright removal is not prohibited! -->
-        <p class="mb-2"><small>COPYRIGHT © 2021 - <?php echo date('Y'); ?>. <a href="">CodingAja</a></small></p>
 
-        <small>
-                  <a href="#" class="m-2">PRESS</a>
-                  <a href="#" class="m-2">TERMS</a>
-                  <a href="#" class="m-2">PRIVACY</a>
-              </small>
-
-
+    <footer>
+        <div class="footer">
+            <small>Copyright &copy; 2021 - CodingAja. All Rights Reserved.</small>
+        </div>
     </footer>
+
+
 
     <!-- ==== ANIMATE ON SCROLL JS CDN -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

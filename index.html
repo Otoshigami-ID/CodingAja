@@ -18,6 +18,7 @@
 
     <!-- ====  REMIXICON CDN ==== -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -92,7 +93,7 @@
     <div class="section">
         <div class="container" id="idea">
             <div class="row">
-                <div class="col-12 col-sm-6">
+                <div data-aos="fade-right" data-aos-duration="3000" class="col-12 col-sm-6">
                     <!-- <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div> -->
                     <h2 style="line-height: 4em">Dari Mana Ide CodingAja Berasal ?</h2>
 
@@ -118,7 +119,7 @@
                     </p>
                     <!-- <a href="#" class="btn btn-primary">Read more</a> -->
                 </div>
-                <div class="col-12 col-sm-6">
+                <div data-aos="fade-left" data-aos-duration="3000" class="col-12 col-sm-6">
                     <img src="img/Screenshot__2293_-removebg.png" alt="perspective phone" class="img-fluid" />
                     <!-- <div class="perspective-phone">
                   </div> -->
@@ -186,21 +187,21 @@
         <div class="row">
             <div class="col-md-8 d-flex align-items-center">
                 <ul class="list-unstyled ui-steps">
-                    <li class="media">
+                    <li data-aos="fade-up-right" data-aos-duration="3000" class="media">
                         <div class="circle-icon mr-4">1</div>
                         <div class="media-body">
                             <h5>Unduh aplikasi</h5>
                             <p>Unduh aplikasi di App Store atau Play Store</p>
                         </div>
                     </li>
-                    <li class="media my-4">
+                    <li data-aos="fade-up-right" data-aos-duration="3000" class="media my-4">
                         <div class="circle-icon mr-4">2</div>
                         <div class="media-body">
                             <h5>Pilih & Daftar</h5>
                             <p>Memilih & Mendaftar Course yang sesuai dengan Minat</p>
                         </div>
                     </li>
-                    <li class="media">
+                    <li data-aos="fade-up-right" data-aos-duration="3000" class="media">
                         <div class="circle-icon mr-4">3</div>
                         <div class="media-body">
                             <h5>Sertifikasi</h5>
@@ -209,7 +210,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div data-aos="fade-left" data-aos-duration="3000" class="col-md-4">
                 <img src="img/Screenshot__2283_-removebg-preview.png" class="img-fluid" />
             </div>
         </div>
@@ -229,6 +230,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <!-- ==== SCRIPT.JS ==== -->
     <script src="./script.js" defer></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
